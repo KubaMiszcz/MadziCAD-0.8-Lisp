@@ -1,0 +1,10 @@
+;zmiana na PAPIER w obszarze wydruku
+(defun c:obszar_papieru()
+  (defun *error* (errorlevel)
+    (princ "\n MadziCAD error: Funkcja przerwana. ")
+  )
+  (graphscr)
+  (command "_pspace")
+  (command "_regenall")
+  (princ)
+)

@@ -1,0 +1,20 @@
+(defun c:ukryj_warstwy_oprocz_warstwy_obiektu(/ layer)  	
+  (defun *error* (errorlevel)
+    (princ "\n MadziCAD error: Funkcja przerwana ")
+  )
+  (if
+    (= command_UWOWO_status 0)
+    (progn
+      (princ "\n Wska¿ obiekt którego warstwa ma pozostaæ odkryta: ")
+      (setq layer (cdr (assoc 8 (entget ( car (entsel))))))
+      (command "_Layer" "r" "*" "t" "")
+      (command "_Layer" "d" layer "")
+      (setq command_UWOWO_status 1)
+    )
+    (progn
+      (command "_Layer" "d" "*" "")
+      (setq command_UWOWO_status 0)
+    )
+  )
+(princ)
+)

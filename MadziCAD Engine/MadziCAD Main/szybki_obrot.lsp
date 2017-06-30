@@ -1,0 +1,27 @@
+(defun C:szybki_obrot(/ temp_selection pkt base_pt base_angle_deg base_angle_rad new_base_pt new_base_angle_deg new_base_angle_rad)
+  (defun *error* (errorlevel)
+    (princ "\n MadziCAD error: Funkcja przerwana. ")
+  )
+  (graphscr)
+  (princ "\n Wska¿ obiekty do obrócenia: ")
+  (setq temp_selection (ssget))
+  (setq pkt (getpoint "\n Wska¿ punkt bazowy: "))
+  (if 
+    (= pkt nil)
+    (setq pkt (cdr (assoc 10 (entget (ssname temp_selection 0)))))
+  )
+  ;(setq base_pt (cdr (assoc 10 (entget (ssname temp_selection 0)))))
+  ;(setq base_angle_rad (atan (/ (- (cadr base_pt) (cadr pkt)) (- (car base_pt) (car pkt)))))
+  ;(setq base_angle_deg (cvunit base_angle_rad "radians" "degrees"))
+  (command "_rotate" temp_selection "" pkt "o" pkt 
+  (progn 
+    (getpoint "\n Wska¿ pierwszy punkt obrotu: ")
+    (princ "\n Wska¿ drugi punkt obrotu: ")
+  )
+  pause)
+  ;(setq new_base_pt (cdr (assoc 10 (entget (ssname temp_selection 0)))))
+  ;(setq new_base_angle_rad (atan (/ (- (cadr new_base_pt) (cadr pkt)) (- (car new_base_pt) (car pkt)))))
+  ;(setq new_base_angle_deg (cvunit new_base_angle_rad "radians" "degrees"))
+  ;(princ (- new_base_angle_deg base_angle_deg))   ;dokonczyc
+  (princ)
+)

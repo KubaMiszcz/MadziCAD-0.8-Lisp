@@ -1,0 +1,8 @@
+(princ "\n  Funkcjê: <MadziCAD Main> za³adowano pomyœlnie. ") 
+(princ "\n  Funkcjê: <MadziCAD Mosty Zelbet> za³adowano pomyœlnie. ")
+(princ "\n  Funkcjê: <Funkcje Pomocnicze> za³adowano pomyœlnie. ")
+(if (= (open (strcat path "\\support\\MadziCAD_splash_screen.exe") "r") nil)
+  (alert "\n Brak pliku MadziCADa.\t")
+)
+(startapp (strcat path "\\support\\MadziCAD_splash_screen.exe"))
+(princ "\n\n © MadziCAD... All OK. ")

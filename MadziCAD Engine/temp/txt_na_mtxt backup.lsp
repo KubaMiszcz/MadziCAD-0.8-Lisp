@@ -1,0 +1,7 @@
+(defun c:txt_na_mtxt(/ a)
+  (princ "\nWska¿ tekst lub teksty jednowierszowe do zamiany na wielowierszowe:")
+  (setq ss (ssget))
+  (selection_to_list ss)
+  (foreach a sslist (command "_txt2mtxt" a ""))
+  (c:txt_na_mtxt)
+)

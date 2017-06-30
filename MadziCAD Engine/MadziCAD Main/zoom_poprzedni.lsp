@@ -1,0 +1,10 @@
+(defun c:zoom_poprzedni()
+  (defun *error* (errorlevel)
+    (princ "\n MadziCAD error: Funkcja przerwana. ")
+  )
+  (graphscr)
+  (command "_regenall")
+  (command "_zoom" "p")
+  (princ)
+)
+

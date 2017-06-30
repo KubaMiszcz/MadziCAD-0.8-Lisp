@@ -1,0 +1,55 @@
+(defun zmiana_stylu_wymiarowania (nazwa)
+  (graphscr)  
+  (command "dimstyle" "_restore" nazwa)
+  (princ (strcat "\n Aktualny styl wymiarowania: " nazwa "."))
+)
+  
+(defun c:styl_wymiarowania_1()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_1)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_2()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_2)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_3()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_3)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_4()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_4)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_5()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_5)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_6()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_6)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_7()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_7)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_8()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_8)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_9()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_9)
+  (princ)
+)
+
+(defun c:styl_wymiarowania_0()
+  (zmiana_stylu_wymiarowania nazwa_stylu_wymiarowania_0)
+  (princ)
+)
