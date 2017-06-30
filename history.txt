@@ -1,0 +1,5 @@
+  MadziCAD v0.21
+ -----------------------------------------------------------------------------------
+ 0.1 (sierpieñ 2007)
+    - pierwsze pomys³y na zrobienie programu który wykonywa³ by za nas czêsto
+      powtarzane czynnoœci

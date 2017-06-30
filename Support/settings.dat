@@ -1,0 +1,174 @@
+/*****************************************************************************\
++-----------------------------------------------------------------------------+
+|                            MadziCAD v 0.022                                 |
+|            Copyright (c) 2007 Kuba Be販h <madzicad@gmail.com>               |
+|                          All rights reserved.                               |
++-----------------------------------------------------------------------------+
++-----------------------------------------------------------------------------+
+\*****************************************************************************/
+!!!                          Plik z ustawieniami                            !!!
+*******************************************************************************
+sciezka do madzicada, nie zmieniac!!!
+C:\Program Files\MadziCAD
+*******************************************************************************
+NAZWY WARSTW DO POLECENIA [WARSTWY] (1,2..9 ORAZ 11,22..99)
+0
+7 - bia造
+Continuous
+0
+
+widok
+3 - zielony
+Continuous
+0.25
+
+przekr鎩
+1 - czerwony
+Continuous
+0.40
+
+wyposazenie
+6 - fioletowy
+Continuous
+0.25
+
+wymiary
+9 - jasnoszary
+Continuous
+0.15
+
+niewidoczna
+4 - b喚kitny
+DASHED
+0.25
+
+osie
+2 - 鄴速y
+CENTERX2
+0.15
+
+kreskowanie
+8 - ciemnoszary
+Continuous
+0.15
+
+istniej鉍a konstrukcja
+7 - bia造
+Continuous
+0.25
+
+projektowany teren
+7 - bia造
+Continuous
+0.25
+*******************************************************************************
+warstwa z wymiarami i kreskowaniami, potrzebna w poleceniach do wymiarow jesli sa takie same to wpisac w obu linijkach to samo:
+wymiary
+kreskowanie
+*******************************************************************************
+wysokosci tekstu w [mm] obszarze papieru:
+2
+4
+8
+*******************************************************************************
+skala linii w obszarze papieru, ustawia skale linii taka jaka ma byc na wydruku:
+4
+*******************************************************************************
+wysokosc w [m] ponad LUW powyzej ktorej wspolrzedne traktowane sa jako bezwzgledne:
+50
+*******************************************************************************
+ilosc cyfr po przecinku przy obliczaniu spadku i nachylenia:
+1
+1
+*******************************************************************************
+kolor tekstu w linii odniesienia (1-czerwony, 2-zolty, itd. 256-jak warstwa z wymiarami):
+2
+*******************************************************************************
+wszystkie teksty duzymi literami:
+1
+*******************************************************************************
+domyslne tryby lokalizacji=
+15359
+*******************************************************************************
+szacher macher ze skalami linii w papierze
+1
+*******************************************************************************
+(setvar "luprec" 2)                       ;dokladnosc jednostek - ilosc miejsc po przecinku
+3
+(setvar "gripblock" 1)                   ;pokazuj wszystkie uchwyty w blokach
+1
+(setvar "edgemode" 0)                    ;przy utnij/wydluz bierze tez przedluzenia krawedzi tnacych
+0
+(setvar "mirrtext" 0)                    ;odbija tekst przy lustrze
+0
+*******************************************************************************
+automatyczne dodawanie maski tla do tekstow
+1
+rozmiar maski w tekstach
+1.1
+skaluj w jednostakch obszaru papieru
+1
+====repair====
+wszystkei obiekty jak warstwa
+1
+stworz lub popraw brakujace wrstwy
+1
+stowr brakujace bloki
+0
+dodaj brakujace style wyairowania
+1
+maski tla w styalch wymairoawnia i przesun na wierzch
+1
+maski tla we wsyztskich tekstach i przesun na wierzch
+1
+czy sa bloki na warstwie defpoints i przenoszenie ich na warstwe 0
+1
+**************************************************************************
+sciezki systemowe
+systemroot
+C:\WINDOWS
+userporfile 
+C:\Documents and Settings\Ponury
+program files
+C:\Program Files
+tempdir
+C:\DOCUME~1\Ponury\LOCALS~1\Temp
+username
+Ponury
+desktop
+D:\--==SYSTEM==--\Pulpit
+adres www
+http://www.madzicad.com
+uruchamiaj razem z autocadem
+0
+warstwa z rzutniami
+view
+ustawiaj niedrukowalna
+1
+kolor warswty z rzutniami
+8 - ciemnoszary
+nazwa bloku do spadku w lewo i w prawo
+MadziCAD_spadek
+pusta linia
+MadziCAD_spadek_w_prawo
+nazwa bloku kota
+MadziCAD_kota
+madzicad autostart start:     wszystkei obiekty jak warstwa
+0
+stworz lub popraw brakujace wrstwy
+0
+stowr brakujace bloki
+0
+dodaj brakujace style wyairowania 
+0
+maski tla w styalch wymairoawnia i przesun na wierzch
+0
+maski tla we wsyztskich tekstach i przesun na wierzch
+0
+czy sa bloki na warstwie defpoints i przenoszenie ich na warstwe 0 
+0
+domyslny styl tesktu
+0.7
+
+END
+

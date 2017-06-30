@@ -1,0 +1,74 @@
+/*****************************************************************************\
++-----------------------------------------------------------------------------+
+|                            MadziCAD v 0.021                                 |
+|            Copyright (c) 2007 Kuba Be³ch <zielonyeufor@o2.pl>               |
+|                          All rights reserved.                               |
++-----------------------------------------------------------------------------+
+| Poni¿szy kod jest chroniony prawami autorskimi. Wszelkie zmiany i redystry- |
+| bucja za zgod¹ autora. Autor nie odpowiada za wadliwe dzia³anie skryptów,   |
+| ani za szkody tym spowodowane, pomimo  i¿ do³o¿y³  wszelkich  starañ, aby   |
+| skrypty dzia³a³y poprawnie.                                                 |
+| Proszê  o  zachowanie not o autorze, który bêdzie za to na pewno wdziêczny. |
+| Jeœli to mo¿liwe proszê, aby zg³aszaæ b³edy w dzia³aniu skryptów, sugestie  |
+| nowych poleceñ, oraz poprawy dzia³ania ju¿ istniej¹cych.                    |
+| Usuniêcie not o autorze i/lub pochodzeniu skryptu bêdzie  karane  zgodnie z |
+| ustaw¹ o ochronie praw autorskich.                                          |
+|                                                                             |
+| Kuba Be³ch.                                                                 |
+| http://www.madzicad.prv.pl                                                  |
++-----------------------------------------------------------------------------+
+\*****************************************************************************/
+*******************************************************************************
+!!!                          Plik z ustawieniami                            !!!
+!!!        wszystkie ewentualne zmiany wprowadzac w tym pliku               !!!
+*******************************************************************************
+*******************************************************************************
+sciezka do madzicada, nie zmieniac!!!
+path=c:\program files\madzicad\
+*******************************************************************************
+*******************************************************************************
+NAZWY WARSTW DO POLECENIA [WARSTWY] (1,2..9 ORAZ 11,22..99)
+0="0"
+1="widok"
+2="przekrój"
+3="wyposazenie"
+4="wymiary"
+5="niewidoczna"
+6="osie"
+7="kreskowanie"
+8="istniej¹ca konstrukcja"
+9=""
+*******************************************************************************
+*******************************************************************************
+warstwa z wymiarami i kreskowaniami, potrzebna w poleceniach do wymiarow
+jesli sa takie same to wpisac w obu linijkach to samo:
+wymiary="wymiary"
+kreskowanie="wymiary"
+*******************************************************************************
+*******************************************************************************
+wysokosci tekstu w [mm] obszarze papieru:
+1a=2mm
+2a=4mm
+4a=8mm
+*******************************************************************************
+*******************************************************************************
+skala linii w obszarze papieru, ustawia skale linii taka jaka ma byc na wydruku:
+skala linii=6
+*******************************************************************************
+*******************************************************************************
+wysokosc w [m] ponad LUW powyzej ktorej wspolrzedne traktowane sa 
+jako bezwzgledne:
+HH=50m
+*******************************************************************************
+*******************************************************************************
+ilosc cyfr po przecinku przy obliczaniu spadku i nachylenia:
+dokladnosc spadku=0
+dokladnosc nachylenia=1
+*******************************************************************************
+*******************************************************************************
+kolor tekstu w linii odniesienia (1-czerwony, 2-zolty, itd. 256-jak warstwa z 
+wymiarami):
+numer koloru tekstu w linii odniesienia=2
+*******************************************************************************
+*******************************************************************************
+END

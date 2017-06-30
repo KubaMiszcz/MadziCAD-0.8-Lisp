@@ -1,0 +1,314 @@
+;;; Visual LISP plik wykonawczy [V1.0] madzicad_bin saved to:[C:/Program Files/MadziCAD] at:[8/13/08] 
+(PRV-DEF (:target . "madzicad_bin.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/random_number.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/check_license_full.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/Madzicad_begin.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/init_and_settings_madzicad_main.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/convert_to_uppercase.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/dopasuj_baze_wspolrzednych.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/dwusieczna.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/kopiuj_poprzednie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/linia_odniesienia.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/linia_uciecia.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/linie_niewidoczne.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/linie_osie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_distance.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_kopiuj.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_massprop.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_przesun.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_reload.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_repair.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/maski_off.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/nachylenie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/obrot_poprzednie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/obszar_papieru.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/odkryj_wszystkie_warstwy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/otworz_wszystkie_warstwy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/papier_model.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/pline_continue.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/polacz_polilinie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/pole_powierzchni.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/policz_obiekty.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/polprosta.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/przekroj_zespolony.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/przenies_na_aktualna_warstwe.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/przenies_obiekty_na_warstwe.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/przerwij_w_punkcie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/przesun_poprzednie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/regen_wszystko.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/rzutnie_zablokuj_odblokuj.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/skala_rysowania.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/skaluj_poprzednie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/skaluj_xy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/spadek.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybka_skala.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_blok.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_luw.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_luw_globalny.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_luw_zmiana.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_obrot.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_obrot_z_kopiowaniem.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_szyk.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybki_wybor.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybkie_lustro_bez_kasowania_oryginalow.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/szybkie_lustro_z_kasowaniem_oryginalow.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/txt_na_mtxt.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/typowy_tekst.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/ukryj_odkryj_obiekty.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/ukryj_warstwe_obiektu.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/ukryj_warstwy_oprocz_warstwy_obiektu.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/ustal_warstwe_obiektu_aktualna.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/utnij_linia.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/warstwy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wersja.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wybierz_obiekty_na_warstwie.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wydluz_linia.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wymiar_katowy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wymiar_liniowy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wymiar_normalny.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/wymiar_szeregowy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Wymiar_wspolrzednych.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Wymiar_wspolrzednych_kilometraz.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zamknij_otworz_warstwe_obiektu.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zamknij_otworz_warstwy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zamknij_otworz_wlasciwosci.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zapamietaj_baze_wspolrzednych.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zmiana_tekstu_wymiarowego.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zoom_okno.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zoom_poprzedni.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zoom_wszystko.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/zmiana_nazwy_bloku.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/madzicad_about.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/usun_puste_grupy.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/check_bit_value.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/ent_to_vlobj.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/external_apps.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/generator_sn.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/generuj_losowa_nazwe.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/kompilator.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/Madzicad_end.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/midpt.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/selection_to_list.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/wartosc_wlasciwosci.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Main/Funkcje Pomocnicze/zmiana_wlasciwosci.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/definiuj_edytuj_nowy_element.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/definiuj_nowy_pret.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/init_and_settings_madzicad_mosty_zelbet.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/rozstaw_prety.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/tworz_opis_preta_w_widoku.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/za.lsp"
+	   )
+	   (:lsp
+	     "madzicad sources/MadziCAD Engine/MadziCAD Mosty Zelbet/Funkcje Pomocnicze/oblicz_promien_giecia.lsp"
+	   )
+	 )
+	 (:require-file-list
+	   (:DCL "DCL/definiuj_edytuj_nowy_element.DCL")
+	   (:DCL "DCL/definiuj_nowy_pret.dcl")
+	   (:DCL "DCL/madzicad_about.dcl")
+	   (:DCL "DCL/przekroj_zespolony.DCL")
+	   (:DCL "DCL/zmiana_tekstu_wymiarowego.dcl")
+	   (:lsp "DCL/zmiana_nazwy_bloku.dcl")
+	 )
+	 (:ob-directory . "madzicad sources/temp fas")
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF

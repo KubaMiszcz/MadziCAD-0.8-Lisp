@@ -1,0 +1,177 @@
+//
+//      MadziCAD Menu
+//
+
+***MENUGROUP=MadziCAD
+
+***POP15
+**MadziCAD Main
+ID_MadziCAD_Main [&MadziCAD Main]
+
+ID_rysuj                                 [->&Rysuj...]
+ID_polprosta                               [&Pó³prosta                              ]^C^C_polprosta
+ID_dwusieczna                              [&Dwusieczna                             ]^C^C_dwusieczna
+ID_linie_osie                              [&Linia_oœ                               ]^C^C_linie_osie
+ID_linie_niewidoczne                       [&Linia_niewidoczna                      ]^C^C_linie_niewidoczne
+ID_pline_continue                          [&Kontynuuj poliliniê                    ]^C^C_pline_continue
+                                           [--]
+ID_typowy_tekst                          [<-&Typowy tekst                           ]^C^C_typowy_tekst
+
+ID_edycja                                [->&Edycja...]
+ID_polacz_polilinie                        [&Po³¹cz polilinie                       ]^C^C_polacz_polilinie
+ID_przerwij_w_punkcie                      [&Przerwij w punkcie                     ]^C^C_przerwij_w_punkcie
+ID_wydluz_linia                            [&Wyd³u¿ do linii                        ]^C^C_wydluz_linia
+ID_utnij_linia                             [&Utnij do linii                         ]^C^C_utnij_linia
+                                           [--]
+ID_szybki_obrot                            [&Szybki obrót                           ]^C^C_szybki_obrot
+ID_szybki_obrot_z_kopiowaniem              [&Szybki obrót z kopiowaniem obiektów    ]^C^C_szybki_obrot_z_kopiowaniem
+ID_Szybka_skala                            [&Szybka skala                           ]^C^C_Szybka_skala
+ID_skaluj_xy                               [&Skaluj w X i Y                         ]^C^C_skaluj_xy
+ID_szybkie_lustro_z_kasowaniem_oryginalow  [&Lustro z kasowaniem oryginalow         ]^C^C_wszybkie_lustro_z_kasowaniem_oryginalow
+ID_szybkie_lustro_bez_kasowania_oryginalow [&Lustro bez kasowania oryginalow        ]^C^C_szybkie_lustro_bez_kasowania_oryginalow
+ID_szybki_szyk                             [&Szybki szyk                            ]^C^C_szybki_szyk
+ID_szybki_blok                             [&Szybki blok                            ]^C^C_szybki_blok
+ID_ukryj_odkryj_obiekty                    [&Ukryj/odkryj obiekty                   ]^C^C_ukryj_odkryj_obiekty
+                                           [--]
+ID_madzicad_kopiuj                         [&MadziCAD Kopiuj                        ]^C^C_madzicad_kopiuj
+ID_madzicad_przesun                        [&MadziCAD Przesuñ                       ]^C^C_madzicad_przesun
+ID_przesun_poprzednie                      [&Przesuñ poprzednio wybrane obiekty     ]^C^C_przesun_poprzednie
+ID_kopiuj_poprzednie                       [&Kopiuj poprzednio wybrane obiekty      ]^C^C_kopiuj_poprzednie
+ID_skaluj_poprzednie                       [&Skaluj poprzednio wybrane obiekty      ]^C^C_skaluj_poprzednie
+ID_obrot_poprzednie                        [&Obróæ poprzednio wybrane obiekty       ]^C^C_obrot_poprzednie
+                                           [--]
+ID_zmiana_nazwy_bloku                      [&Zmiana nazwy bloku                     ]^C^C_zmiana_nazwy_bloku
+                                           [--]
+ID_convert_to_uppercase                    [&Zmiana tekstu na du¿e litery           ]^C^C_convert_to_uppercase
+ID_txt_na_mtxt                           [<-&Zmiana tekstu na tekst wielowierszowy  ]^C^C_txt_na_mtxt
+
+ID_wymiary                               [->&Wymiary...]
+ID_wymiar_liniowy                          [&Wymiar liniowy                         ]^C^C_wymiar_liniowy
+ID_wymiar_normalny                         [&Wymiar normalny                        ]^C^C_wymiar_normalny
+ID_wymiar_katowy                           [&Wymiar k¹towy                          ]^C^C_wymiar_katowy
+ID_wymiar_szeregowy                        [&Wymiar szeregowy                       ]^C^C_wymiar_szeregowy
+                                           [--]
+ID_wymiar_wspolrzednych                    [&Wymiar wspolrzednych                   ]^C^C_wymiar_wspolrzednych
+ID_wymiar_wspolrzednych_kilometraz         [&Wymiar kilometra¿                      ]^C^C_wymiar_wspolrzednych_kilometraz
+ID_bazy_wspolrzednych                      [->&Bazy wspó³rzêdnych...]
+ID_dopasuj_baze_wspolrzednych              [&Dopasuj bazê wspó³rzêdnych do aktualnego LUW]^C^C_dopasuj_baze_wspolrzednych
+ID_dopasuj_baze_wspolrzednych_nr_1         [&Dopasuj bazê wspó³rzêdnych do bazy NR 1]^C^C_dopasuj_baze_wspolrzednych_nr_1
+ID_dopasuj_baze_wspolrzednych_nr_2         [&Dopasuj bazê wspó³rzêdnych do bazy NR 2]^C^C_dopasuj_baze_wspolrzednych_nr_2
+ID_dopasuj_baze_wspolrzednych_nr_3         [&Dopasuj bazê wspó³rzêdnych do bazy NR 3]^C^C_dopasuj_baze_wspolrzednych_nr_3
+                                           [--]
+ID_zapamietaj_baze_wspolrzednych_nr_1      [&Zapamietaj bazê wspó³rzêdnych NR 1          ]^C^C_zapamietaj_baze_wspolrzednych_nr_1
+ID_zapamietaj_baze_wspolrzednych_nr_2      [&Zapamietaj bazê wspó³rzêdnych NR 2          ]^C^C_zapamietaj_baze_wspolrzednych_nr_2
+ID_zapamietaj_baze_wspolrzednych_nr_3      [<-&Zapamietaj bazê wspó³rzêdnych NR 3          ]^C^C_zapamietaj_baze_wspolrzednych_nr_3
+                                           [--]
+ID_zmiana_tekstu_wymiarowego               [&Zmiana tekstu wymiarowego              ]^C^C_zmiana_tekstu_wymiarowego
+ID_linia_odniesienia                       [&Linia odniesienia                      ]^C^C_linia_odniesienia
+ID_skala_rysowania                       [<-&Skala rysowania                        ]^C^C_skala_rysowania
+
+ID_warstwy                               [->&Warstwy...]
+ID_zamknij_otworz_warstwe_obiektu          [&Zamknij/Otwórz warstwê obiektu         ]^C^C_zamknij_otworz_warstwe_obiektu
+ID_zamknij_otworz_warstwy                  [&Zamknij/Otwórz wszystkie warstwy oprócz warstwy obiektu]^C^C_zamknij_otworz_warstwy
+ID_otworz_wszystkie_warstwy                [&Otwórz wszystkie warstwy               ]^C^C_otworz_wszystkie_warstwy
+                                           [--]
+ID_ukryj_warstwe_obiektu                   [&Ukryj warstwê obiektu                  ]^C^C_ukryj_warstwe_obiektu
+ID_ukryj_warstwy_oprocz_warstwy_obiektu    [&Ukryj wszystkie warstwy oprócz warstwy obiektu]^C^C_ukryj_warstwy_oprocz_warstwy_obiektu
+ID_odkryj_wszystkie_warstwy                [&Odkryj wszystkie warstwy               ]^C^C_odkryj_wszystkie_warstwy
+                                           [--]
+ID_przenies_na_aktualna_warstwe            [&Przenieœ obiekty na aktualn¹ warstwê   ]^C^C_przenies_na_aktualna_warstwe
+ID_przenies_obiekty_na_warstwe             [&Przenieœ obiekty na warstwê obiektu    ]^C^C_przenies_obiekty_na_warstwe
+ID_ustal_warstwe_obiektu_aktualna          [&Ustal warstwê obiektu aktualn¹         ]^C^C_ustal_warstwe_obiektu_aktualna
+                                           [--]
+ID_zmiana_warstwy                          [->&Zmiana warstwy...]
+ID_warstwa0  [&Warstwa: 0 ]^C^C_warstwa0 
+ID_warstwa1  [&Warstwa: widok ]^C^C_warstwa1 
+ID_warstwa2  [&Warstwa: przekrój ]^C^C_warstwa2 
+ID_warstwa3  [&Warstwa: wyposazenie ]^C^C_warstwa3 
+ID_warstwa4  [&Warstwa: wymiary ]^C^C_warstwa4 
+ID_warstwa5  [&Warstwa: niewidoczna ]^C^C_warstwa5 
+ID_warstwa6  [&Warstwa: osie ]^C^C_warstwa6 
+ID_warstwa7  [&Warstwa: kreskowanie ]^C^C_warstwa7 
+ID_warstwa8  [&Warstwa: istniej¹ca konstrukcja ]^C^C_warstwa8 
+ID_warstwa9  [&Warstwa: projektowany teren ]^C^C_warstwa9 
+ID_aaa1      [<-]
+ID_warstwy_z_przeniesieniem_obiektow       [->&Zmiana warstwy z przeniesieniem obiektów...]
+ID_warstwa00 [&Warstwa: 0 ]^C^C_warstwa00
+ID_warstwa11 [&Warstwa: widok ]^C^C_warstwa11
+ID_warstwa22 [&Warstwa: przekrój ]^C^C_warstwa22
+ID_warstwa33 [&Warstwa: wyposazenie ]^C^C_warstwa33
+ID_warstwa44 [&Warstwa: wymiary ]^C^C_warstwa44
+ID_warstwa55 [&Warstwa: niewidoczna ]^C^C_warstwa55
+ID_warstwa66 [&Warstwa: osie ]^C^C_warstwa66
+ID_warstwa77 [&Warstwa: kreskowanie ]^C^C_warstwa77
+ID_warstwa88 [&Warstwa: istniej¹ca konstrukcja ]^C^C_warstwa88
+ID_warstwa99 [&Warstwa: projektowany teren ]^C^C_warstwa99
+ID_aaa2      [<-<-]
+
+
+ID_wybor                                 [->&Wybór..]
+ID_wybierz_obiekty_na_warstwie             [&Wybierz obiekty na warstwie            ]^C^C_wybierz_obiekty_na_warstwie
+                                           [--]
+ID_szybki_wybor_ostatnio_utworzone         [&Wybierz ostatnio utworzone obiekty     ]^C^C_szybki_wybor_ostatnio_utworzone
+ID_szybki_wybor_poprzedni                  [&Wybierz poprzednio wybrane obiekty     ]^C^C_szybki_wybor_poprzedni
+ID_szybki_wybor_zamkniety_wielobok         [&Wybierz wielobokiem zawieraj¹cym obiekty]^C^C_szybki_wybor_zamkniety_wielobok
+ID_szybki_wybor_otwarty_wielobok           [&Wybierz wielobokiem dotykaj¹cym obiektów]^C^C_szybki_wybor_otwarty_wielobok
+ID_szybki_wybor_krawedz                  [<-&Wybierz krawêdzi¹ dotykaj¹c¹ obiektów  ]^C^C_szybki_wybor_krawedz
+
+ID_LUW_zmiany                            [->&LUW zmiany...]
+ID_szybki_luw_zmiana                       [&Szybka zmiana LUW                      ]^C^C_szybki_luw_zmiana
+ID_szybki_luw                              [&Szybki LUW                             ]^C^C_szybki_luw
+ID_szybki_luw_globalny                   [<-&Szybki LUW globalny                    ]^C^C_szybki_luw_globalny
+
+ID_zoom                                  [->&Zoom...]
+ID_zoom_okno                               [&Zoom okno                              ]^C^C_zoom_okno
+ID_zoom_poprzedni                          [&Zoom poprzedni                         ]^C^C_zoom_poprzedni
+ID_zoom_wszystko                           [&Zoom wszystko                          ]^C^C_zoom_wszystko
+ID_regen_wszystko                        [<-&Regeneruj wszystko                         ]^C^C_regen_wszystko
+
+ID_rysunek                               [->&Papier/Model...]
+ID_obszar_papieru                          [&Obszar papieru (w obszarze papieru)    ]^C^C_obszar_papieru
+ID_rzutnie_zablokuj_odblokuj               [&Zablokuj / Odblokuj rzutnie            ]^C^C_rzutnie_zablokuj_odblokuj
+ID_papier_model                            [&Prze³¹cz w obszar PAPIER/MODEL         ]^C^C_papier_model
+ID_regen_wszystko                        [<-&Regen wszystko                         ]^C^C_regen_wszystko
+
+ID_narzedzia                             [->&Narzêdzia...]
+ID_policz_obiekty                          [&Policz obiekty                         ]^C^C_policz_obiekty
+                                           [--]
+ID_spadek                                  [&Spadek                                 ]^C^C_spadek
+ID_nachylenie                              [&Nachylenie                             ]^C^C_nachylenie
+                                           [--]
+ID_madzicad_distance                       [&Odleg³oœci                             ]^C^C_madzicad_distance
+ID_pole_powierzchni                        [&Pole powierzchni                       ]^C^C_pole_powierzchni
+ID_parametry_fizyczne                    [<-&Parametry fizyczne przekroju           ]^C^C_madzicad_massprop
+
+ID_programy                              [->&Programy...]
+ID_przekroj_zespolony                      [&Przekrój zespolony                     ]^C^C_przekroj_zespolony
+ID_interpolator                            [&Interpolator                           ]^C^C_interpolator
+ID_kalkulator                              [&Kalkulator                             ]^C^C_kalkulator
+                                           [--]
+ID_maski_off                               [&Wy³¹cz maski t³a w tekstach i wymiarach]^C^C_maski_off
+ID_usun_puste_grupy                        [&Usuñ puste grupy                       ]^C^C_usun_puste_grupy
+ID_madzicad_repair                         [&Madzicad Repair                        ]^C^C_madzicad_repair
+ID_madzicad_reload                       [<-&Restart MadziCADa                      ]^C^C_madzicad_reload
+
+ID_shortcut_maker                          [&Edytor skrótów AutoCADa i MadziCADa    ]^C^C_shortcut_maker
+
+ID_Madzicad_ustawienia                   [&Madzicad ustawienia                      ]^C^C_Madzicad_ustawienia
+
+ID_madzicad_rejestracja                  [&Rejestracja                              ]^C^C_madzicad_rejestracja
+
+ID_help                                  [&Pomoc                                    ]^C^C_Madzicad_help
+
+ID_madzicad_about                        [&O programie                              ]^C^C_madzicad_about
+
+***POP16
+**MadziCAD Zelbet
+ID_MadziCAD_Zelbet[&MadziCAD Zelbet]
+ID_definiuj_edytuj_nowy_element            [&Definiuj/Edytuj nowy element           ]^C^C_definiuj_edytuj_nowy_element
+ID_definiuj_nowy_pret                      [&Definiuj nowy prêt                     ]^C^C_definiuj_nowy_pret
+ID_tworz_opis_preta_w_widoku               [&Twórz opis prêta w widoku              ]^C^C_tworz_opis_preta_w_widoku
+ID_rozstaw_prety                           [&Twórz opis prêta w widoku              ]^C^C_rozstaw_prety
+ID_za                                      [&Zaokr¹gl prêty                         ]^C^C_za
+ID_zaa                                     [&Wyprostuj prêty                        ]^C^C_zaa
+
+
+***HELPSTRINGS
+ID_typowy_tekst                            [Tworzy typowy tekst stylem, w skali, i innych parametrach zdefiniowanych w MadziCAD ustawienia. TYPOWY_TEKST]

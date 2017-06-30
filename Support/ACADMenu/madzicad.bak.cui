@@ -1,0 +1,1888 @@
+<?xml version="1.0"?>
+<!--
+Ostrzeżenie! Nie należy edytować elementów tego pliku.
+Przy próbie edycji tego pliku w edytorze XML, można utracić dostosowanie i dane migracji.
+Jeżeli należy zmienić informacje w pliku dostosowywania, należy użyć okna dialogowego Dostosuj interfejs użytkownika w programie.
+Okno Dostosuj interfejs użytkownika jest dostępne z menu Narzędzia > Dostosowywanie > Interfejs, lub po wywołaniu polecenia CUI w wierszu polecenia. 
+-->
+<CustSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileVersion MajorVersion="0" MinorVersion="3" IncrementalVersion="2" UserVersion="1" />
+  <Header>
+    <CommonConfiguration>
+      <CommonItems>
+        <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+      </CommonItems>
+    </CommonConfiguration>
+    <WorkspaceRoot>
+      <WorkspaceConfigRoot />
+    </WorkspaceRoot>
+  </Header>
+  <MenuGroup Name="MADZICAD">
+    <MacroGroup Name="MadziCADMacros">
+      <MenuMacro UID="ID_polprosta">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0003">Półprosta</Name>
+          <Command>^C^C_polprosta </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_dwusieczna">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0005">Dwusieczna</Name>
+          <Command>^C^C_dwusieczna </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_linie_osie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0007">Linia_oś</Name>
+          <Command>^C^C_linie_osie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_linie_niewidoczne">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0009">Linia_niewidoczna</Name>
+          <Command>^C^C_linie_niewidoczne </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_pline_continue">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0011">Kontynuuj polilinię</Name>
+          <Command>^C^C_pline_continue </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_typowy_tekst">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0013">Typowy tekst</Name>
+          <Command>^C^C_typowy_tekst </Command>
+          <HelpString xlate="true" UID="XLS_0243">Tworzy typowy tekst stylem, w skali, i innych parametrach zdefiniowanych w MadziCAD ustawienia. TYPOWY_TEKST</HelpString>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_polacz_polilinie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0016">Połącz polilinie</Name>
+          <Command>^C^C_polacz_polilinie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_przerwij_w_punkcie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0018">Przerwij w punkcie</Name>
+          <Command>^C^C_przerwij_w_punkcie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wydluz_linia">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0020">Wydłuż do linii</Name>
+          <Command>^C^C_wydluz_linia </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_utnij_linia">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0022">Utnij do linii</Name>
+          <Command>^C^C_utnij_linia </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_obrot">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0024">Szybki obrót</Name>
+          <Command>^C^C_szybki_obrot </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_obrot_z_kopiowaniem">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0026">Szybki obrót z kopiowaniem obiektów</Name>
+          <Command>^C^C_szybki_obrot_z_kopiowaniem </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Szybka_skala">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0028">Szybka skala</Name>
+          <Command>^C^C_Szybka_skala </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_skaluj_xy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0030">Skaluj w X i Y</Name>
+          <Command>^C^C_skaluj_xy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybkie_lustro_z_kasowaniem_oryginalow">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0032">Lustro z kasowaniem oryginalow</Name>
+          <Command>^C^C_wszybkie_lustro_z_kasowaniem_oryginalow </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybkie_lustro_bez_kasowania_oryginalow">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0034">Lustro bez kasowania oryginalow</Name>
+          <Command>^C^C_szybkie_lustro_bez_kasowania_oryginalow </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_szyk">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0036">Szybki szyk</Name>
+          <Command>^C^C_szybki_szyk </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_blok">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0038">Szybki blok</Name>
+          <Command>^C^C_szybki_blok </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ukryj_odkryj_obiekty">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0040">Ukryj/odkryj obiekty</Name>
+          <Command>^C^C_ukryj_odkryj_obiekty </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_kopiuj">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0042">MadziCAD Kopiuj</Name>
+          <Command>^C^C_madzicad_kopiuj </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_przesun">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0044">MadziCAD Przesuń</Name>
+          <Command>^C^C_madzicad_przesun </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_przesun_poprzednie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0046">Przesuń poprzednio wybrane obiekty</Name>
+          <Command>^C^C_przesun_poprzednie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_kopiuj_poprzednie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0048">Kopiuj poprzednio wybrane obiekty</Name>
+          <Command>^C^C_kopiuj_poprzednie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_skaluj_poprzednie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0050">Skaluj poprzednio wybrane obiekty</Name>
+          <Command>^C^C_skaluj_poprzednie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_obrot_poprzednie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0052">Obróć poprzednio wybrane obiekty</Name>
+          <Command>^C^C_obrot_poprzednie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zmiana_nazwy_bloku">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0054">Zmiana nazwy bloku</Name>
+          <Command>^C^C_zmiana_nazwy_bloku </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_convert_to_uppercase">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0056">Zmiana tekstu na duże litery</Name>
+          <Command>^C^C_convert_to_uppercase </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_txt_na_mtxt">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0058">Zmiana tekstu na tekst wielowierszowy</Name>
+          <Command>^C^C_txt_na_mtxt </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wymiar_liniowy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0061">Wymiar liniowy</Name>
+          <Command>^C^C_wymiar_liniowy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wymiar_normalny">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0063">Wymiar normalny</Name>
+          <Command>^C^C_wymiar_normalny </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wymiar_katowy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0065">Wymiar kątowy</Name>
+          <Command>^C^C_wymiar_katowy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wymiar_szeregowy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0067">Wymiar szeregowy</Name>
+          <Command>^C^C_wymiar_szeregowy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wymiar_wspolrzednych">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0069">Wymiar wspolrzednych</Name>
+          <Command>^C^C_wymiar_wspolrzednych </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wymiar_wspolrzednych_kilometraz">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0071">Wymiar kilometraż</Name>
+          <Command>^C^C_wymiar_wspolrzednych_kilometraz </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_dopasuj_baze_wspolrzednych">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0074">Dopasuj bazę współrzędnych do aktualnego LUW</Name>
+          <Command>^C^C_dopasuj_baze_wspolrzednych </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_dopasuj_baze_wspolrzednych_nr_1">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0076">Dopasuj bazę współrzędnych do bazy NR 1</Name>
+          <Command>^C^C_dopasuj_baze_wspolrzednych_nr_1 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_dopasuj_baze_wspolrzednych_nr_2">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0078">Dopasuj bazę współrzędnych do bazy NR 2</Name>
+          <Command>^C^C_dopasuj_baze_wspolrzednych_nr_2 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_dopasuj_baze_wspolrzednych_nr_3">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0080">Dopasuj bazę współrzędnych do bazy NR 3</Name>
+          <Command>^C^C_dopasuj_baze_wspolrzednych_nr_3 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zapamietaj_baze_wspolrzednych_nr_1">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0082">Zapamietaj bazę współrzędnych NR 1</Name>
+          <Command>^C^C_zapamietaj_baze_wspolrzednych_nr_1 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zapamietaj_baze_wspolrzednych_nr_2">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0084">Zapamietaj bazę współrzędnych NR 2</Name>
+          <Command>^C^C_zapamietaj_baze_wspolrzednych_nr_2 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zapamietaj_baze_wspolrzednych_nr_3">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0086">Zapamietaj bazę współrzędnych NR 3</Name>
+          <Command>^C^C_zapamietaj_baze_wspolrzednych_nr_3 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zmiana_tekstu_wymiarowego">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0088">Zmiana tekstu wymiarowego</Name>
+          <Command>^C^C_zmiana_tekstu_wymiarowego </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_linia_odniesienia">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0090">Linia odniesienia</Name>
+          <Command>^C^C_linia_odniesienia </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_skala_rysowania">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0092">Skala rysowania</Name>
+          <Command>^C^C_skala_rysowania </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zamknij_otworz_warstwe_obiektu">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0095">Zamknij/Otwórz warstwę obiektu</Name>
+          <Command>^C^C_zamknij_otworz_warstwe_obiektu </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zamknij_otworz_warstwy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0097">Zamknij/Otwórz wszystkie warstwy oprócz warstwy obiektu</Name>
+          <Command>^C^C_zamknij_otworz_warstwy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_otworz_wszystkie_warstwy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0099">Otwórz wszystkie warstwy</Name>
+          <Command>^C^C_otworz_wszystkie_warstwy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ukryj_warstwe_obiektu">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0101">Ukryj warstwę obiektu</Name>
+          <Command>^C^C_ukryj_warstwe_obiektu </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ukryj_warstwy_oprocz_warstwy_obiektu">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0103">Ukryj wszystkie warstwy oprócz warstwy obiektu</Name>
+          <Command>^C^C_ukryj_warstwy_oprocz_warstwy_obiektu </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_odkryj_wszystkie_warstwy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0105">Odkryj wszystkie warstwy</Name>
+          <Command>^C^C_odkryj_wszystkie_warstwy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_przenies_na_aktualna_warstwe">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0107">Przenieś obiekty na aktualną warstwę</Name>
+          <Command>^C^C_przenies_na_aktualna_warstwe </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_przenies_obiekty_na_warstwe">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0109">Przenieś obiekty na warstwę obiektu</Name>
+          <Command>^C^C_przenies_obiekty_na_warstwe </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ustal_warstwe_obiektu_aktualna">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0111">Ustal warstwę obiektu aktualną</Name>
+          <Command>^C^C_ustal_warstwe_obiektu_aktualna </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa0">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0114">Warstwa: 0</Name>
+          <Command>^C^C_warstwa0  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa1">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0116">Warstwa: widok</Name>
+          <Command>^C^C_warstwa1  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa2">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0118">Warstwa: przekrój</Name>
+          <Command>^C^C_warstwa2  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa3">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0120">Warstwa: wyposazenie</Name>
+          <Command>^C^C_warstwa3  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa4">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0122">Warstwa: wymiary</Name>
+          <Command>^C^C_warstwa4  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa5">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0124">Warstwa: niewidoczna</Name>
+          <Command>^C^C_warstwa5  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa6">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0126">Warstwa: osie</Name>
+          <Command>^C^C_warstwa6  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa7">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0128">Warstwa: kreskowanie</Name>
+          <Command>^C^C_warstwa7  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa8">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0130">Warstwa: istniejąca konstrukcja</Name>
+          <Command>^C^C_warstwa8  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa9">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0132">Warstwa: projektowany teren</Name>
+          <Command>^C^C_warstwa9  </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa00">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0135">Warstwa: 0</Name>
+          <Command>^C^C_warstwa00 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa11">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0137">Warstwa: widok</Name>
+          <Command>^C^C_warstwa11 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa22">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0139">Warstwa: przekrój</Name>
+          <Command>^C^C_warstwa22 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa33">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0141">Warstwa: wyposazenie</Name>
+          <Command>^C^C_warstwa33 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa44">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0143">Warstwa: wymiary</Name>
+          <Command>^C^C_warstwa44 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa55">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0145">Warstwa: niewidoczna</Name>
+          <Command>^C^C_warstwa55 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa66">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0147">Warstwa: osie</Name>
+          <Command>^C^C_warstwa66 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa77">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0149">Warstwa: kreskowanie</Name>
+          <Command>^C^C_warstwa77 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa88">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0151">Warstwa: istniejąca konstrukcja</Name>
+          <Command>^C^C_warstwa88 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_warstwa99">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0153">Warstwa: projektowany teren</Name>
+          <Command>^C^C_warstwa99 </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_wybierz_obiekty_na_warstwie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0156">Wybierz obiekty na warstwie</Name>
+          <Command>^C^C_wybierz_obiekty_na_warstwie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_wybor_ostatnio_utworzone">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0158">Wybierz ostatnio utworzone obiekty</Name>
+          <Command>^C^C_szybki_wybor_ostatnio_utworzone </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_wybor_poprzedni">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0160">Wybierz poprzednio wybrane obiekty</Name>
+          <Command>^C^C_szybki_wybor_poprzedni </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_wybor_zamkniety_wielobok">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0162">Wybierz wielobokiem zawierającym obiekty</Name>
+          <Command>^C^C_szybki_wybor_zamkniety_wielobok </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_wybor_otwarty_wielobok">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0164">Wybierz wielobokiem dotykającym obiektów</Name>
+          <Command>^C^C_szybki_wybor_otwarty_wielobok </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_wybor_krawedz">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0166">Wybierz krawędzią dotykającą obiektów</Name>
+          <Command>^C^C_szybki_wybor_krawedz </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_luw_zmiana">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0169">Szybka zmiana LUW</Name>
+          <Command>^C^C_szybki_luw_zmiana </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_luw">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0171">Szybki LUW</Name>
+          <Command>^C^C_szybki_luw </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_szybki_luw_globalny">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0173">Szybki LUW globalny</Name>
+          <Command>^C^C_szybki_luw_globalny </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zoom_okno">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0176">Zoom okno</Name>
+          <Command>^C^C_zoom_okno </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zoom_poprzedni">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0178">Zoom poprzedni</Name>
+          <Command>^C^C_zoom_poprzedni </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zoom_wszystko">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0180">Zoom wszystko</Name>
+          <Command>^C^C_zoom_wszystko </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_regen_wszystko">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0182">Regeneruj wszystko</Name>
+          <Command>^C^C_regen_wszystko </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_obszar_papieru">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0185">Obszar papieru (w obszarze papieru)</Name>
+          <Command>^C^C_obszar_papieru </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_rzutnie_zablokuj_odblokuj">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0187">Zablokuj / Odblokuj rzutnie</Name>
+          <Command>^C^C_rzutnie_zablokuj_odblokuj </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_papier_model">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0189">Przełącz w obszar PAPIER/MODEL</Name>
+          <Command>^C^C_papier_model </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_policz_obiekty">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0193">Policz obiekty</Name>
+          <Command>^C^C_policz_obiekty </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_spadek">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0195">Spadek</Name>
+          <Command>^C^C_spadek </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_nachylenie">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0197">Nachylenie</Name>
+          <Command>^C^C_nachylenie </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_distance">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0199">Odległości</Name>
+          <Command>^C^C_madzicad_distance </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_pole_powierzchni">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0201">Pole powierzchni</Name>
+          <Command>^C^C_pole_powierzchni </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_parametry_fizyczne">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0203">Parametry fizyczne przekroju</Name>
+          <Command>^C^C_madzicad_massprop </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_przekroj_zespolony">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0206">Przekrój zespolony</Name>
+          <Command>^C^C_przekroj_zespolony </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_interpolator">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0208">Interpolator</Name>
+          <Command>^C^C_interpolator </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_kalkulator">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0210">Kalkulator</Name>
+          <Command>^C^C_kalkulator </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_maski_off">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0212">Wyłącz maski tła w tekstach i wymiarach</Name>
+          <Command>^C^C_maski_off </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_usun_puste_grupy">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0214">Usuń puste grupy</Name>
+          <Command>^C^C_usun_puste_grupy </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_repair">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0216">Madzicad Repair</Name>
+          <Command>^C^C_madzicad_repair </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_reload">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0218">Restart MadziCADa</Name>
+          <Command>^C^C_madzicad_reload </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_shortcut_maker">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0220">Edytor skrótów AutoCADa i MadziCADa</Name>
+          <Command>^C^C_shortcut_maker </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Madzicad_ustawienia">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0222">Madzicad ustawienia</Name>
+          <Command>^C^C_Madzicad_ustawienia </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_rejestracja">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0224">Rejestracja</Name>
+          <Command>^C^C_madzicad_rejestracja </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_help">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0226">Pomoc</Name>
+          <Command>^C^C_Madzicad_help </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_madzicad_about">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0228">O programie</Name>
+          <Command>^C^C_madzicad_about </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_definiuj_edytuj_nowy_element">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0231">Definiuj/Edytuj nowy element</Name>
+          <Command>^C^C_definiuj_edytuj_nowy_element </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_definiuj_nowy_pret">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0233">Definiuj nowy pręt</Name>
+          <Command>^C^C_definiuj_nowy_pret </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_tworz_opis_preta_w_widoku">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0235">Twórz opis pręta w widoku</Name>
+          <Command>^C^C_tworz_opis_preta_w_widoku </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_rozstaw_prety">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0237">Twórz opis pręta w widoku</Name>
+          <Command>^C^C_rozstaw_prety </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_za">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0239">Zaokrągl pręty</Name>
+          <Command>^C^C_za </Command>
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_zaa">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0241">Wyprostuj pręty</Name>
+          <Command>^C^C_zaa </Command>
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot />
+      <OverrideRoot />
+      <MouseButtonRoot />
+      <DigitizerButtonRoot />
+      <PopMenuRoot>
+        <PopMenu hasDiesel="false" UID="ID_MadziCAD_Main">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Alias>POP15</Alias>
+          <Alias>MadziCAD Main</Alias>
+          <Name xlate="true" UID="XLS_0001">&amp;MadziCAD Main</Name>
+          <PopMenuRef pUID="ID_rysuj" UID="PMRU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_edycja" UID="PMRU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_wymiary" UID="PMRU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_warstwy" UID="PMRU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_wybor" UID="PMRU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_LUW_zmiany" UID="PMRU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_zoom" UID="PMRU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_rysunek" UID="PMRU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_narzedzia" UID="PMRU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_programy" UID="PMRU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0119">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0221" xlate="true">&amp;Edytor skrótów AutoCADa i MadziCADa</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_shortcut_maker" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0120">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0223" xlate="true">&amp;Madzicad ustawienia</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Madzicad_ustawienia" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0121">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0225" xlate="true">&amp;Rejestracja</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_rejestracja" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0122">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0227" xlate="true">&amp;Pomoc</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_help" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0123">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0229" xlate="true">&amp;O programie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_about" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_rysuj">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0002">&amp;Rysuj...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0001">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0004" xlate="true">&amp;Półprosta</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_polprosta" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0002">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0006" xlate="true">&amp;Dwusieczna</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_dwusieczna" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0008" xlate="true">&amp;Linia_oś</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_linie_osie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0004">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0010" xlate="true">&amp;Linia_niewidoczna</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_linie_niewidoczne" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0012" xlate="true">&amp;Kontynuuj polilinię</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_pline_continue" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0014" xlate="true">&amp;Typowy tekst</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_typowy_tekst" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_edycja">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0015">&amp;Edycja...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0017" xlate="true">&amp;Połącz polilinie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_polacz_polilinie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0009">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0019" xlate="true">&amp;Przerwij w punkcie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_przerwij_w_punkcie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0010">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0021" xlate="true">&amp;Wydłuż do linii</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wydluz_linia" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0011">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0023" xlate="true">&amp;Utnij do linii</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_utnij_linia" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0012">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0013">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0025" xlate="true">&amp;Szybki obrót</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_obrot" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0014">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0027" xlate="true">&amp;Szybki obrót z kopiowaniem obiektów</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_obrot_z_kopiowaniem" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0015">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0029" xlate="true">&amp;Szybka skala</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Szybka_skala" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0016">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0031" xlate="true">&amp;Skaluj w X i Y</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_skaluj_xy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0017">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0033" xlate="true">&amp;Lustro z kasowaniem oryginalow</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybkie_lustro_z_kasowaniem_oryginalow" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0018">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0035" xlate="true">&amp;Lustro bez kasowania oryginalow</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybkie_lustro_bez_kasowania_oryginalow" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0019">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0037" xlate="true">&amp;Szybki szyk</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_szyk" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0039" xlate="true">&amp;Szybki blok</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_blok" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0021">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0041" xlate="true">&amp;Ukryj/odkryj obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ukryj_odkryj_obiekty" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0022">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0023">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0043" xlate="true">&amp;MadziCAD Kopiuj</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_kopiuj" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0024">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0045" xlate="true">&amp;MadziCAD Przesuń</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_przesun" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0025">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0047" xlate="true">&amp;Przesuń poprzednio wybrane obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_przesun_poprzednie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0026">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0049" xlate="true">&amp;Kopiuj poprzednio wybrane obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_kopiuj_poprzednie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0027">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0051" xlate="true">&amp;Skaluj poprzednio wybrane obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_skaluj_poprzednie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0028">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0053" xlate="true">&amp;Obróć poprzednio wybrane obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_obrot_poprzednie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0029">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0030">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0055" xlate="true">&amp;Zmiana nazwy bloku</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zmiana_nazwy_bloku" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0031">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0032">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0057" xlate="true">&amp;Zmiana tekstu na duże litery</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_convert_to_uppercase" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0033">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0059" xlate="true">&amp;Zmiana tekstu na tekst wielowierszowy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_txt_na_mtxt" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_wymiary">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0060">&amp;Wymiary...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0034">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0062" xlate="true">&amp;Wymiar liniowy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wymiar_liniowy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0035">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0064" xlate="true">&amp;Wymiar normalny</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wymiar_normalny" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0036">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0066" xlate="true">&amp;Wymiar kątowy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wymiar_katowy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0037">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0068" xlate="true">&amp;Wymiar szeregowy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wymiar_szeregowy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0038">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0039">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0070" xlate="true">&amp;Wymiar wspolrzednych</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wymiar_wspolrzednych" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0040">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0072" xlate="true">&amp;Wymiar kilometraż</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wymiar_wspolrzednych_kilometraz" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuRef pUID="ID_bazy_wspolrzednych" UID="PMRU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0049">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0050">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0089" xlate="true">&amp;Zmiana tekstu wymiarowego</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zmiana_tekstu_wymiarowego" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0051">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0091" xlate="true">&amp;Linia odniesienia</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_linia_odniesienia" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0052">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0093" xlate="true">&amp;Skala rysowania</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_skala_rysowania" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_bazy_wspolrzednych">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0073">&amp;Bazy współrzędnych...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0041">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0075" xlate="true">&amp;Dopasuj bazę współrzędnych do aktualnego LUW</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_dopasuj_baze_wspolrzednych" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0042">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0077" xlate="true">&amp;Dopasuj bazę współrzędnych do bazy NR 1</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_dopasuj_baze_wspolrzednych_nr_1" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0043">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0079" xlate="true">&amp;Dopasuj bazę współrzędnych do bazy NR 2</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_dopasuj_baze_wspolrzednych_nr_2" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0044">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0081" xlate="true">&amp;Dopasuj bazę współrzędnych do bazy NR 3</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_dopasuj_baze_wspolrzednych_nr_3" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0045">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0046">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0083" xlate="true">&amp;Zapamietaj bazę współrzędnych NR 1</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zapamietaj_baze_wspolrzednych_nr_1" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0047">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0085" xlate="true">&amp;Zapamietaj bazę współrzędnych NR 2</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zapamietaj_baze_wspolrzednych_nr_2" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0048">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0087" xlate="true">&amp;Zapamietaj bazę współrzędnych NR 3</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zapamietaj_baze_wspolrzednych_nr_3" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_warstwy">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0094">&amp;Warstwy...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0053">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0096" xlate="true">&amp;Zamknij/Otwórz warstwę obiektu</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zamknij_otworz_warstwe_obiektu" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0054">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0098" xlate="true">&amp;Zamknij/Otwórz wszystkie warstwy oprócz warstwy obiektu</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zamknij_otworz_warstwy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0055">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0100" xlate="true">&amp;Otwórz wszystkie warstwy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_otworz_wszystkie_warstwy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0056">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0057">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0102" xlate="true">&amp;Ukryj warstwę obiektu</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ukryj_warstwe_obiektu" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0058">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0104" xlate="true">&amp;Ukryj wszystkie warstwy oprócz warstwy obiektu</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ukryj_warstwy_oprocz_warstwy_obiektu" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0059">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0106" xlate="true">&amp;Odkryj wszystkie warstwy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_odkryj_wszystkie_warstwy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0060">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0061">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0108" xlate="true">&amp;Przenieś obiekty na aktualną warstwę</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_przenies_na_aktualna_warstwe" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0062">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0110" xlate="true">&amp;Przenieś obiekty na warstwę obiektu</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_przenies_obiekty_na_warstwe" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0063">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0112" xlate="true">&amp;Ustal warstwę obiektu aktualną</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ustal_warstwe_obiektu_aktualna" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0064">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="ID_zmiana_warstwy" UID="PMRU_0005">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuRef pUID="ID_warstwy_z_przeniesieniem_obiektow" UID="PMRU_0006">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_zmiana_warstwy">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0113">&amp;Zmiana warstwy...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0065">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0115" xlate="true">&amp;Warstwa: 0</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa0" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0066">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0117" xlate="true">&amp;Warstwa: widok</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa1" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0067">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0119" xlate="true">&amp;Warstwa: przekrój</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa2" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0068">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0121" xlate="true">&amp;Warstwa: wyposazenie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa3" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0069">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0123" xlate="true">&amp;Warstwa: wymiary</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa4" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0070">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0125" xlate="true">&amp;Warstwa: niewidoczna</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa5" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0071">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0127" xlate="true">&amp;Warstwa: osie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa6" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0072">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0129" xlate="true">&amp;Warstwa: kreskowanie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa7" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0073">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0131" xlate="true">&amp;Warstwa: istniejąca konstrukcja</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa8" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0074">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0133" xlate="true">&amp;Warstwa: projektowany teren</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa9" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_warstwy_z_przeniesieniem_obiektow">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0134">&amp;Zmiana warstwy z przeniesieniem obiektów...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0075">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0136" xlate="true">&amp;Warstwa: 0</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa00" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0076">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0138" xlate="true">&amp;Warstwa: widok</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa11" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0077">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0140" xlate="true">&amp;Warstwa: przekrój</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa22" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0078">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0142" xlate="true">&amp;Warstwa: wyposazenie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa33" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0079">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0144" xlate="true">&amp;Warstwa: wymiary</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa44" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0080">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0146" xlate="true">&amp;Warstwa: niewidoczna</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa55" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0081">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0148" xlate="true">&amp;Warstwa: osie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa66" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0082">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0150" xlate="true">&amp;Warstwa: kreskowanie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa77" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0083">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0152" xlate="true">&amp;Warstwa: istniejąca konstrukcja</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa88" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0084">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0154" xlate="true">&amp;Warstwa: projektowany teren</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_warstwa99" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_wybor">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0155">&amp;Wybór..</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0085">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0157" xlate="true">&amp;Wybierz obiekty na warstwie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_wybierz_obiekty_na_warstwie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0086">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0087">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0159" xlate="true">&amp;Wybierz ostatnio utworzone obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_wybor_ostatnio_utworzone" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0088">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0161" xlate="true">&amp;Wybierz poprzednio wybrane obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_wybor_poprzedni" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0089">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0163" xlate="true">&amp;Wybierz wielobokiem zawierającym obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_wybor_zamkniety_wielobok" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0090">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0165" xlate="true">&amp;Wybierz wielobokiem dotykającym obiektów</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_wybor_otwarty_wielobok" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0091">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0167" xlate="true">&amp;Wybierz krawędzią dotykającą obiektów</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_wybor_krawedz" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_LUW_zmiany">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0168">&amp;LUW zmiany...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0092">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0170" xlate="true">&amp;Szybka zmiana LUW</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_luw_zmiana" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0093">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0172" xlate="true">&amp;Szybki LUW</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_luw" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0094">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0174" xlate="true">&amp;Szybki LUW globalny</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_szybki_luw_globalny" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_zoom">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0175">&amp;Zoom...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0095">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0177" xlate="true">&amp;Zoom okno</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zoom_okno" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0096">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0179" xlate="true">&amp;Zoom poprzedni</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zoom_poprzedni" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0097">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0181" xlate="true">&amp;Zoom wszystko</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zoom_wszystko" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0098">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0183" xlate="true">&amp;Regeneruj wszystko</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_regen_wszystko" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_rysunek">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0184">&amp;Papier/Model...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0099">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0186" xlate="true">&amp;Obszar papieru (w obszarze papieru)</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_obszar_papieru" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0100">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0188" xlate="true">&amp;Zablokuj / Odblokuj rzutnie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_rzutnie_zablokuj_odblokuj" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0101">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0190" xlate="true">&amp;Przełącz w obszar PAPIER/MODEL</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_papier_model" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0102">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0191" xlate="true">&amp;Regen wszystko</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_regen_wszystko" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_narzedzia">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0192">&amp;Narzędzia...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0103">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0194" xlate="true">&amp;Policz obiekty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_policz_obiekty" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0104">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0105">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0196" xlate="true">&amp;Spadek</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_spadek" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0106">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0198" xlate="true">&amp;Nachylenie</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_nachylenie" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0107">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0108">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0200" xlate="true">&amp;Odległości</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_distance" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0109">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0202" xlate="true">&amp;Pole powierzchni</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_pole_powierzchni" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0110">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0204" xlate="true">&amp;Parametry fizyczne przekroju</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_parametry_fizyczne" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_programy">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0205">&amp;Programy...</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0111">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0207" xlate="true">&amp;Przekrój zespolony</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_przekroj_zespolony" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0112">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0209" xlate="true">&amp;Interpolator</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_interpolator" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0113">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0211" xlate="true">&amp;Kalkulator</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_kalkulator" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0114">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0115">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0213" xlate="true">&amp;Wyłącz maski tła w tekstach i wymiarach</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_maski_off" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0116">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0215" xlate="true">&amp;Usuń puste grupy</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_usun_puste_grupy" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0117">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0217" xlate="true">&amp;Madzicad Repair</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_repair" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0118">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0219" xlate="true">&amp;Restart MadziCADa</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_madzicad_reload" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0016">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Alias>POP16</Alias>
+          <Alias>MadziCAD Zelbet</Alias>
+          <Name xlate="true" UID="XLS_0230">&amp;MadziCAD Zelbet</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0124">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0232" xlate="true">&amp;Definiuj/Edytuj nowy element</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_definiuj_edytuj_nowy_element" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0125">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0234" xlate="true">&amp;Definiuj nowy pręt</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_definiuj_nowy_pret" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0126">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0236" xlate="true">&amp;Twórz opis pręta w widoku</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_tworz_opis_preta_w_widoku" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0127">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0238" xlate="true">&amp;Twórz opis pręta w widoku</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_rozstaw_prety" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0128">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0240" xlate="true">&amp;Zaokrągl pręty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_za" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0129">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0242" xlate="true">&amp;Wyprostuj pręty</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_zaa" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+      </PopMenuRoot>
+      <ToolbarRoot />
+      <ScreenMenuRoot />
+      <ImageMenuRoot />
+      <TabletMenuRoot />
+      <DoubleClickRoot />
+    </MenuRoot>
+  </MenuGroup>
+</CustSection>
